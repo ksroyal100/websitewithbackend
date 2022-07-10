@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- ...- front section-.... -->
+    <section class="header">
+
+        <nav>
+            <img src="./img/icon4.jpg" alt="logo">
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="./register">REGISTER</a></li>
+                    
+                </ul>
+            </div>
+              
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>WEB WONDER KS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Magnam enim assumenda Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. <br>vitae rerum rem recusandae vero aperia.
+            </p>
+            {{!-- <a href="services.html" class="hero-btn">Visit us to know more</a> --}}
+        </div>
+
+    </section>
+
+    <!-- ......- SERVICES section-.....  -->
+    <section class="service">
+        <h1>Services We Offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore eius reiciendis eligendi.
+        </p>
+        <div class="row">
+            <div class="service-col">
+                <h3>FRONTEND DESIGNING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, natus? Laborum, quae. Facilis,
+                    praesentium sunt tempora fugit expedita vel nis </p>
+
+            </div>
+            <div class="service-col">
+                <h3>BACKEND MANAGEMENT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, natus? Laborum, quae. Facilis,
+                    praesentium sunt tempora fugit expedita vel nis</p>
+
+            </div>
+            <div class="service-col">
+                <h3>DATABASE MANAGEMENT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, natus? Laborum, quae. Facilis,
+                    praesentium sunt tempora fugit expedita vel nis </p>
+
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <!-- ......-community section-......  -->
+
+    <section class="community">
+
+        <h1>Our Community</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, vero perspiciatis accusanti.</p>
+
+        <div class="row">
+            <div class="community-col">
+                <img src="./img/img13.jpg" alt="community">
+                <div class="layer">
+                    <h3>Team Work</h3>
+                </div>
+            </div>
+            <div class="community-col">
+                <img src="./img/img14.jpg" alt="community">
+                <div class="layer">
+                    <h3>Highly Rated</h3>
+                </div>
+            </div>
+            <div class="community-col">
+                <img src="./img/img10.jpg" alt="community">
+                <div class="layer">
+                    <h3>Efficient Work</h3>
+                </div>
+            </div>
+
+    </section>
+
+
+    </section>
+
+    <!-- testimonial -->
+    <section class="testnimonial">
+        <h3>What Our Clients Says:</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam in eveniet repudiandae reprehende.</p>
+
+        <div class="row">
+            <div class="testnimonial-col">
+                <img src="./img/img22.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet error laboriosam, quam provident
+                        commodi magni rem recusandae ipsum nemo deleniti totam facilis.</p>
+                    <h3>Hritik Roshan</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+
+            </div>
+
+            <div class="testnimonial-col">
+                <img src="./img/img24.jpg">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet error laboriosam, quam provident
+                        commodi magni rem recusandae ipsum nemo deleniti totam facilis.</p>
+                    <h3>Henry Cavill</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- call to action -->
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Service<br> Anywhere From The World!</h1>
+        <a href="./register" class="hero-btn">REGISTER NOW</a>
+    </section>
+
+    <!-- footer  -->
+
+    <footer>
+        <p class="footer">
+            &copy; Copyright 2021 | www.stackagencyks.com | All Rights Reserved
+        </p>
+    </footer>
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
